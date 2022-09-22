@@ -1,0 +1,212 @@
+:root {
+    --headingColor: #222222;
+    --textColor: #465b52;
+    --bgColor: #e3e6f3;
+    --hoverColor: #088178;
+    --whiteColor: #ffffff;
+    --blackColor: #000000;
+    --bkColor: #1a1a1a;
+    --borderColor: #cce7d0;
+}
+/* start navbar */
+.navbar {
+    background-color: var(--bgColor)
+}
+.navbar-nav .nav-item .nav-link {
+    color: var(--headingColor);
+}
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--hoverColor);
+    border-bottom: 2px solid var(--hoverColor);
+}
+i {
+    cursor: pointer;
+}
+.shopping-cart {
+    cursor: pointer;
+}
+.shopping-cart:hover {
+    color: var(--hoverColor);
+}
+/* end navbar */
+
+/* *******************************************/
+
+/* start backgroung */
+.middel {
+    background-image: url("../imgs/hero4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--bgColor);
+}
+.differnt {
+    color: var(--hoverColor);
+}
+.shop{
+    background-image: url("../imgs/button.png");
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+/* end backgroung */
+/* start sections */
+.cont {
+    padding: 0.5rem 1.5rem;
+    height: 190px;
+    border: 1px solid var(--borderColor);
+}
+.cont:hover {
+    box-shadow: 10px 10px 54px rgb(70 62 221 / 10%);;
+}
+.card-txt {
+    color: var(--hoverColor);
+    background-color: var(--bkColor);
+}
+.cont:first-child p{
+    background-color: #fddde4;
+}
+.cont:nth-child(2) p {
+    background-color: #cdebbc;
+}
+.cont:nth-child(3) p {
+    background-color: #d1e8f2;
+
+}
+.cont:nth-child(4) p {
+    background-color: #cdd4f8;
+
+}
+.cont:nth-child(5) p {
+    background-color: #f6dbf6;
+
+}
+.cont:last-child p {
+    background-color: #fff2e5;
+}
+/* end sections */
+/* ************************ */
+/* start Featured */
+.shirt-holder {
+    border: 1px solid var(--borderColor);
+    border-radius: 25px;
+}
+.shirt {
+    border-radius: 1.5rem;
+}
+.row .icons {
+    color: #f3b519;
+} 
+.price {
+    color: #088178;
+}
+.cart {
+    font-size: 20px;
+    color: #088178;
+    cursor: pointer;
+}
+/* end Featured */
+/* **********************/
+.bg {
+    height: 300px;
+    background: url("../imgs/b2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg span {
+    color: red;
+}
+/* **********************/
+.advertise {
+    max-width: 100%;
+    height: 320px;
+    background-image: url("../imgs/bg/b1.jpg");
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+.advertise2 {
+    max-width: 100%;
+    height: 320px;
+    background-image: url("../imgs/bg/b2.jpg");
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+/* **********************/
+/* ****************************************** */
+.news1 {
+    background-image: url("../imgs/bg/b3.jpg");
+    background-size: cover;
+    height: 30vh;
+    border-radius: 1.5rem;
+}
+.news2 {
+    background-image: url("../imgs/bg/b4.jpg");
+    background-size: cover;
+    height: 30vh;
+    border-radius: 1.5rem;
+}
+.news3 {
+    background-image: url("../imgs/bg/b5.jpg");
+    background-size: cover;
+    height: 30vh;
+    border-radius: 1.5rem;
+}
+/* ****************************************** */
+.news {
+    background-color: #19283f;
+    /* height: 12rem !important; */
+}
+.sign p span {
+    color: #ffbd27;
+}
+.news form {
+    height: 3.1rem;
+}
+.news form input[type=text] {
+    border-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.news form input[type=text]::placeholder {
+    padding-left: 5px;
+}
+.news form .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* start footer */
+.social-icons {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.social-icons .facebook:hover {
+    color: #1877f2;
+}
+.social-icons .twitter:hover {
+    color: #1da1f2;
+}
+.social-icons .instagram:hover {
+    color: #c13584;
+}
+.social-icons .pinterest:hover {
+    color: #e60023;
+}
+.social-icons .youtube:hover {
+    color: #ff0000;
+}
+.contact i:hover {
+    color: #088178;
+}
+.about a,
+.acc a{
+    text-decoration: none;
+    color: black;
+}
+.about a:hover,
+.acc a:hover {
+    color: #088178;
+}
+/* end footer */
